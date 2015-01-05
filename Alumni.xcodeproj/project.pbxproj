@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CCAF4101A595D28006A8CB7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF40E1A595D28006A8CB7 /* RootViewController.m */; };
+		8CCAF4111A595D28006A8CB7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAF40F1A595D28006A8CB7 /* RootViewController.xib */; };
+		8CCAF41E1A5967EF006A8CB7 /* SwitchTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF41B1A5967EF006A8CB7 /* SwitchTabBar.m */; };
+		8CCAF41F1A5967EF006A8CB7 /* SwitchTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF41D1A5967EF006A8CB7 /* SwitchTabBarController.m */; };
+		8CCAF42D1A5A37E9006A8CB7 /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF42B1A5A37E9006A8CB7 /* ContactTableViewCell.m */; };
+		8CCAF42E1A5A37E9006A8CB7 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAF42C1A5A37E9006A8CB7 /* ContactTableViewCell.xib */; };
+		8CCAF4321A5A39B0006A8CB7 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF4301A5A39B0006A8CB7 /* ContactViewController.m */; };
+		8CCAF4331A5A39B0006A8CB7 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAF4311A5A39B0006A8CB7 /* ContactViewController.xib */; };
+		8CCAF4391A5A4BC2006A8CB7 /* UIView+X.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF4381A5A4BC2006A8CB7 /* UIView+X.m */; };
 		8CCBF9321A48394500267494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBF9311A48394500267494 /* main.m */; };
 		8CCBF9351A48394500267494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBF9341A48394500267494 /* AppDelegate.m */; };
-		8CCBF9381A48394500267494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBF9371A48394500267494 /* ViewController.m */; };
-		8CCBF93B1A48394500267494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CCBF9391A48394500267494 /* Main.storyboard */; };
 		8CCBF93D1A48394500267494 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCBF93C1A48394500267494 /* Images.xcassets */; };
-		8CCBF9401A48394500267494 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CCBF93E1A48394500267494 /* LaunchScreen.xib */; };
 		8CCBF94C1A48394500267494 /* AlumniTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBF94B1A48394500267494 /* AlumniTests.m */; };
 /* End PBXBuildFile section */
 
@@ -27,16 +33,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8CCAF40D1A595D28006A8CB7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8CCAF40E1A595D28006A8CB7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8CCAF40F1A595D28006A8CB7 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		8CCAF41A1A5967EF006A8CB7 /* SwitchTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchTabBar.h; sourceTree = "<group>"; };
+		8CCAF41B1A5967EF006A8CB7 /* SwitchTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchTabBar.m; sourceTree = "<group>"; };
+		8CCAF41C1A5967EF006A8CB7 /* SwitchTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchTabBarController.h; sourceTree = "<group>"; };
+		8CCAF41D1A5967EF006A8CB7 /* SwitchTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchTabBarController.m; sourceTree = "<group>"; };
+		8CCAF42A1A5A37E9006A8CB7 /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		8CCAF42B1A5A37E9006A8CB7 /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		8CCAF42C1A5A37E9006A8CB7 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		8CCAF42F1A5A39B0006A8CB7 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		8CCAF4301A5A39B0006A8CB7 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		8CCAF4311A5A39B0006A8CB7 /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		8CCAF4371A5A4BC2006A8CB7 /* UIView+X.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+X.h"; sourceTree = "<group>"; };
+		8CCAF4381A5A4BC2006A8CB7 /* UIView+X.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+X.m"; sourceTree = "<group>"; };
 		8CCBF92C1A48394500267494 /* Alumni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alumni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCBF9301A48394500267494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CCBF9311A48394500267494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CCBF9331A48394500267494 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8CCBF9341A48394500267494 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8CCBF9361A48394500267494 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8CCBF9371A48394500267494 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8CCBF93A1A48394500267494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CCBF93C1A48394500267494 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8CCBF93F1A48394500267494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8CCBF9451A48394500267494 /* AlumniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlumniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCBF94A1A48394500267494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CCBF94B1A48394500267494 /* AlumniTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlumniTests.m; sourceTree = "<group>"; };
@@ -60,6 +77,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8CCAF4121A595D6D006A8CB7 /* AppGobal */ = {
+			isa = PBXGroup;
+			children = (
+				8CCBF9341A48394500267494 /* AppDelegate.m */,
+				8CCBF9331A48394500267494 /* AppDelegate.h */,
+			);
+			name = AppGobal;
+			sourceTree = "<group>";
+		};
+		8CCAF4131A5963CA006A8CB7 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8CCAF41A1A5967EF006A8CB7 /* SwitchTabBar.h */,
+				8CCAF41B1A5967EF006A8CB7 /* SwitchTabBar.m */,
+				8CCAF41C1A5967EF006A8CB7 /* SwitchTabBarController.h */,
+				8CCAF41D1A5967EF006A8CB7 /* SwitchTabBarController.m */,
+				8CCAF40F1A595D28006A8CB7 /* RootViewController.xib */,
+				8CCAF40E1A595D28006A8CB7 /* RootViewController.m */,
+				8CCAF40D1A595D28006A8CB7 /* RootViewController.h */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		8CCAF4201A5A33A3006A8CB7 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				8CCAF42A1A5A37E9006A8CB7 /* ContactTableViewCell.h */,
+				8CCAF42B1A5A37E9006A8CB7 /* ContactTableViewCell.m */,
+				8CCAF42C1A5A37E9006A8CB7 /* ContactTableViewCell.xib */,
+				8CCAF42F1A5A39B0006A8CB7 /* ContactViewController.h */,
+				8CCAF4301A5A39B0006A8CB7 /* ContactViewController.m */,
+				8CCAF4311A5A39B0006A8CB7 /* ContactViewController.xib */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		8CCAF4211A5A33B7006A8CB7 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		8CCAF4221A5A33CB006A8CB7 /* Square */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Square;
+			sourceTree = "<group>";
+		};
+		8CCAF4231A5A33E6006A8CB7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8CCAF4241A5A33F8006A8CB7 /* Setting */,
+				8CCAF4201A5A33A3006A8CB7 /* Contact */,
+				8CCAF4211A5A33B7006A8CB7 /* Chat */,
+				8CCAF4221A5A33CB006A8CB7 /* Square */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		8CCAF4241A5A33F8006A8CB7 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		8CCAF4361A5A4BB3006A8CB7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8CCAF4371A5A4BC2006A8CB7 /* UIView+X.h */,
+				8CCAF4381A5A4BC2006A8CB7 /* UIView+X.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		8CCBF9231A48394500267494 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +175,11 @@
 		8CCBF92E1A48394500267494 /* Alumni */ = {
 			isa = PBXGroup;
 			children = (
-				8CCBF9331A48394500267494 /* AppDelegate.h */,
-				8CCBF9341A48394500267494 /* AppDelegate.m */,
-				8CCBF9361A48394500267494 /* ViewController.h */,
-				8CCBF9371A48394500267494 /* ViewController.m */,
-				8CCBF9391A48394500267494 /* Main.storyboard */,
+				8CCAF4361A5A4BB3006A8CB7 /* Common */,
+				8CCAF4231A5A33E6006A8CB7 /* UI */,
+				8CCAF4131A5963CA006A8CB7 /* RootViewController */,
+				8CCAF4121A595D6D006A8CB7 /* AppGobal */,
 				8CCBF93C1A48394500267494 /* Images.xcassets */,
-				8CCBF93E1A48394500267494 /* LaunchScreen.xib */,
 				8CCBF92F1A48394500267494 /* Supporting Files */,
 			);
 			path = Alumni;
@@ -199,8 +291,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CCBF93B1A48394500267494 /* Main.storyboard in Resources */,
-				8CCBF9401A48394500267494 /* LaunchScreen.xib in Resources */,
+				8CCAF42E1A5A37E9006A8CB7 /* ContactTableViewCell.xib in Resources */,
+				8CCAF4331A5A39B0006A8CB7 /* ContactViewController.xib in Resources */,
+				8CCAF4111A595D28006A8CB7 /* RootViewController.xib in Resources */,
 				8CCBF93D1A48394500267494 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CCBF9381A48394500267494 /* ViewController.m in Sources */,
+				8CCAF4321A5A39B0006A8CB7 /* ContactViewController.m in Sources */,
+				8CCAF4391A5A4BC2006A8CB7 /* UIView+X.m in Sources */,
 				8CCBF9351A48394500267494 /* AppDelegate.m in Sources */,
+				8CCAF4101A595D28006A8CB7 /* RootViewController.m in Sources */,
+				8CCAF42D1A5A37E9006A8CB7 /* ContactTableViewCell.m in Sources */,
 				8CCBF9321A48394500267494 /* main.m in Sources */,
+				8CCAF41F1A5967EF006A8CB7 /* SwitchTabBarController.m in Sources */,
+				8CCAF41E1A5967EF006A8CB7 /* SwitchTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +340,6 @@
 			targetProxy = 8CCBF9461A48394500267494 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8CCBF9391A48394500267494 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CCBF93A1A48394500267494 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8CCBF93E1A48394500267494 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8CCBF93F1A48394500267494 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8CCBF94D1A48394500267494 /* Debug */ = {
@@ -347,6 +426,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -358,6 +438,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -414,6 +495,7 @@
 				8CCBF9511A48394500267494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CCBF9521A48394500267494 /* Build configuration list for PBXNativeTarget "AlumniTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +504,7 @@
 				8CCBF9541A48394500267494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
