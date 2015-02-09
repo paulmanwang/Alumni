@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C9DCB511A88D6640020147A /* ChatRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB4F1A88D6640020147A /* ChatRecordViewController.m */; };
+		8C9DCB521A88D6640020147A /* ChatRecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DCB501A88D6640020147A /* ChatRecordViewController.xib */; };
+		8C9DCB561A88D6DF0020147A /* ChatRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB541A88D6DF0020147A /* ChatRecordTableViewCell.m */; };
+		8C9DCB571A88D6DF0020147A /* ChatRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DCB551A88D6DF0020147A /* ChatRecordTableViewCell.xib */; };
+		8C9DCB621A88DD360020147A /* FeedbackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB5B1A88DD360020147A /* FeedbackItem.m */; };
+		8C9DCB631A88DD360020147A /* FeedbackTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB5D1A88DD360020147A /* FeedbackTableViewCell.m */; };
+		8C9DCB641A88DD360020147A /* FeedbackTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DCB5E1A88DD360020147A /* FeedbackTableViewCell.xib */; };
+		8C9DCB651A88DD360020147A /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB601A88DD360020147A /* FeedbackViewController.m */; };
+		8C9DCB661A88DD360020147A /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DCB611A88DD360020147A /* FeedbackViewController.xib */; };
+		8C9DCB6B1A88E30A0020147A /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB691A88E30A0020147A /* SettingViewController.m */; };
+		8C9DCB6C1A88E30A0020147A /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DCB6A1A88E30A0020147A /* SettingViewController.xib */; };
+		8C9DCB741A88E6DB0020147A /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB721A88E6DB0020147A /* SquareViewController.m */; };
+		8C9DCB751A88E6DB0020147A /* SquareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DCB731A88E6DB0020147A /* SquareViewController.xib */; };
+		8C9DCB791A88E77D0020147A /* SquareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB771A88E77D0020147A /* SquareTableViewCell.m */; };
+		8C9DCB7A1A88E77D0020147A /* SquareTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DCB781A88E77D0020147A /* SquareTableViewCell.xib */; };
 		8CCAF4101A595D28006A8CB7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF40E1A595D28006A8CB7 /* RootViewController.m */; };
 		8CCAF4111A595D28006A8CB7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAF40F1A595D28006A8CB7 /* RootViewController.xib */; };
 		8CCAF41E1A5967EF006A8CB7 /* SwitchTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF41B1A5967EF006A8CB7 /* SwitchTabBar.m */; };
@@ -16,6 +31,9 @@
 		8CCAF4321A5A39B0006A8CB7 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF4301A5A39B0006A8CB7 /* ContactViewController.m */; };
 		8CCAF4331A5A39B0006A8CB7 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAF4311A5A39B0006A8CB7 /* ContactViewController.xib */; };
 		8CCAF4391A5A4BC2006A8CB7 /* UIView+X.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF4381A5A4BC2006A8CB7 /* UIView+X.m */; };
+		8CCAF4461A5AB498006A8CB7 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF4441A5AB498006A8CB7 /* UserInfoViewController.m */; };
+		8CCAF4471A5AB498006A8CB7 /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAF4451A5AB498006A8CB7 /* UserInfoViewController.xib */; };
+		8CCAF44A1A5AB738006A8CB7 /* UIBarButtonItem+X.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF4491A5AB738006A8CB7 /* UIBarButtonItem+X.m */; };
 		8CCBF9321A48394500267494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBF9311A48394500267494 /* main.m */; };
 		8CCBF9351A48394500267494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCBF9341A48394500267494 /* AppDelegate.m */; };
 		8CCBF93D1A48394500267494 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCBF93C1A48394500267494 /* Images.xcassets */; };
@@ -33,6 +51,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C9DCB4E1A88D6640020147A /* ChatRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRecordViewController.h; sourceTree = "<group>"; };
+		8C9DCB4F1A88D6640020147A /* ChatRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRecordViewController.m; sourceTree = "<group>"; };
+		8C9DCB501A88D6640020147A /* ChatRecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRecordViewController.xib; sourceTree = "<group>"; };
+		8C9DCB531A88D6DF0020147A /* ChatRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRecordTableViewCell.h; sourceTree = "<group>"; };
+		8C9DCB541A88D6DF0020147A /* ChatRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRecordTableViewCell.m; sourceTree = "<group>"; };
+		8C9DCB551A88D6DF0020147A /* ChatRecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRecordTableViewCell.xib; sourceTree = "<group>"; };
+		8C9DCB5A1A88DD360020147A /* FeedbackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackItem.h; sourceTree = "<group>"; };
+		8C9DCB5B1A88DD360020147A /* FeedbackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackItem.m; sourceTree = "<group>"; };
+		8C9DCB5C1A88DD360020147A /* FeedbackTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackTableViewCell.h; sourceTree = "<group>"; };
+		8C9DCB5D1A88DD360020147A /* FeedbackTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackTableViewCell.m; sourceTree = "<group>"; };
+		8C9DCB5E1A88DD360020147A /* FeedbackTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackTableViewCell.xib; sourceTree = "<group>"; };
+		8C9DCB5F1A88DD360020147A /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		8C9DCB601A88DD360020147A /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		8C9DCB611A88DD360020147A /* FeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
+		8C9DCB681A88E30A0020147A /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		8C9DCB691A88E30A0020147A /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		8C9DCB6A1A88E30A0020147A /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		8C9DCB711A88E6DB0020147A /* SquareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
+		8C9DCB721A88E6DB0020147A /* SquareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
+		8C9DCB731A88E6DB0020147A /* SquareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareViewController.xib; sourceTree = "<group>"; };
+		8C9DCB761A88E77D0020147A /* SquareTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareTableViewCell.h; sourceTree = "<group>"; };
+		8C9DCB771A88E77D0020147A /* SquareTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareTableViewCell.m; sourceTree = "<group>"; };
+		8C9DCB781A88E77D0020147A /* SquareTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareTableViewCell.xib; sourceTree = "<group>"; };
 		8CCAF40D1A595D28006A8CB7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		8CCAF40E1A595D28006A8CB7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8CCAF40F1A595D28006A8CB7 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
@@ -48,6 +89,11 @@
 		8CCAF4311A5A39B0006A8CB7 /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
 		8CCAF4371A5A4BC2006A8CB7 /* UIView+X.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+X.h"; sourceTree = "<group>"; };
 		8CCAF4381A5A4BC2006A8CB7 /* UIView+X.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+X.m"; sourceTree = "<group>"; };
+		8CCAF4431A5AB498006A8CB7 /* UserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		8CCAF4441A5AB498006A8CB7 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		8CCAF4451A5AB498006A8CB7 /* UserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
+		8CCAF4481A5AB738006A8CB7 /* UIBarButtonItem+X.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+X.h"; sourceTree = "<group>"; };
+		8CCAF4491A5AB738006A8CB7 /* UIBarButtonItem+X.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+X.m"; sourceTree = "<group>"; };
 		8CCBF92C1A48394500267494 /* Alumni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alumni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CCBF9301A48394500267494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CCBF9311A48394500267494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +123,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C9DCB581A88DC870020147A /* ChatRecord */ = {
+			isa = PBXGroup;
+			children = (
+				8C9DCB4F1A88D6640020147A /* ChatRecordViewController.m */,
+				8C9DCB501A88D6640020147A /* ChatRecordViewController.xib */,
+				8C9DCB531A88D6DF0020147A /* ChatRecordTableViewCell.h */,
+				8C9DCB541A88D6DF0020147A /* ChatRecordTableViewCell.m */,
+				8C9DCB551A88D6DF0020147A /* ChatRecordTableViewCell.xib */,
+				8C9DCB4E1A88D6640020147A /* ChatRecordViewController.h */,
+			);
+			name = ChatRecord;
+			sourceTree = "<group>";
+		};
+		8C9DCB591A88DCA20020147A /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8C9DCB5A1A88DD360020147A /* FeedbackItem.h */,
+				8C9DCB5B1A88DD360020147A /* FeedbackItem.m */,
+				8C9DCB5C1A88DD360020147A /* FeedbackTableViewCell.h */,
+				8C9DCB5D1A88DD360020147A /* FeedbackTableViewCell.m */,
+				8C9DCB5E1A88DD360020147A /* FeedbackTableViewCell.xib */,
+				8C9DCB5F1A88DD360020147A /* FeedbackViewController.h */,
+				8C9DCB601A88DD360020147A /* FeedbackViewController.m */,
+				8C9DCB611A88DD360020147A /* FeedbackViewController.xib */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		8C9DCB671A88E2DC0020147A /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8C9DCB681A88E30A0020147A /* SettingViewController.h */,
+				8C9DCB691A88E30A0020147A /* SettingViewController.m */,
+				8C9DCB6A1A88E30A0020147A /* SettingViewController.xib */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		8C9DCB6D1A88E6990020147A /* Squre */ = {
+			isa = PBXGroup;
+			children = (
+				8C9DCB711A88E6DB0020147A /* SquareViewController.h */,
+				8C9DCB721A88E6DB0020147A /* SquareViewController.m */,
+				8C9DCB731A88E6DB0020147A /* SquareViewController.xib */,
+				8C9DCB761A88E77D0020147A /* SquareTableViewCell.h */,
+				8C9DCB771A88E77D0020147A /* SquareTableViewCell.m */,
+				8C9DCB781A88E77D0020147A /* SquareTableViewCell.xib */,
+			);
+			name = Squre;
+			sourceTree = "<group>";
+		};
 		8CCAF4121A595D6D006A8CB7 /* AppGobal */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +213,8 @@
 		8CCAF4211A5A33B7006A8CB7 /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				8C9DCB591A88DCA20020147A /* Chat */,
+				8C9DCB581A88DC870020147A /* ChatRecord */,
 			);
 			name = Chat;
 			sourceTree = "<group>";
@@ -130,7 +229,9 @@
 		8CCAF4231A5A33E6006A8CB7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				8CCAF4241A5A33F8006A8CB7 /* Setting */,
+				8C9DCB6D1A88E6990020147A /* Squre */,
+				8C9DCB671A88E2DC0020147A /* Setting */,
+				8CCAF4421A5AB46F006A8CB7 /* UserInfo */,
 				8CCAF4201A5A33A3006A8CB7 /* Contact */,
 				8CCAF4211A5A33B7006A8CB7 /* Chat */,
 				8CCAF4221A5A33CB006A8CB7 /* Square */,
@@ -138,20 +239,25 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
-		8CCAF4241A5A33F8006A8CB7 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Setting;
-			sourceTree = "<group>";
-		};
 		8CCAF4361A5A4BB3006A8CB7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8CCAF4481A5AB738006A8CB7 /* UIBarButtonItem+X.h */,
+				8CCAF4491A5AB738006A8CB7 /* UIBarButtonItem+X.m */,
 				8CCAF4371A5A4BC2006A8CB7 /* UIView+X.h */,
 				8CCAF4381A5A4BC2006A8CB7 /* UIView+X.m */,
 			);
 			name = Common;
+			sourceTree = "<group>";
+		};
+		8CCAF4421A5AB46F006A8CB7 /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				8CCAF4431A5AB498006A8CB7 /* UserInfoViewController.h */,
+				8CCAF4441A5AB498006A8CB7 /* UserInfoViewController.m */,
+				8CCAF4451A5AB498006A8CB7 /* UserInfoViewController.xib */,
+			);
+			name = UserInfo;
 			sourceTree = "<group>";
 		};
 		8CCBF9231A48394500267494 = {
@@ -291,8 +397,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9DCB7A1A88E77D0020147A /* SquareTableViewCell.xib in Resources */,
 				8CCAF42E1A5A37E9006A8CB7 /* ContactTableViewCell.xib in Resources */,
+				8C9DCB6C1A88E30A0020147A /* SettingViewController.xib in Resources */,
+				8C9DCB661A88DD360020147A /* FeedbackViewController.xib in Resources */,
 				8CCAF4331A5A39B0006A8CB7 /* ContactViewController.xib in Resources */,
+				8C9DCB641A88DD360020147A /* FeedbackTableViewCell.xib in Resources */,
+				8CCAF4471A5AB498006A8CB7 /* UserInfoViewController.xib in Resources */,
+				8C9DCB751A88E6DB0020147A /* SquareViewController.xib in Resources */,
+				8C9DCB571A88D6DF0020147A /* ChatRecordTableViewCell.xib in Resources */,
+				8C9DCB521A88D6640020147A /* ChatRecordViewController.xib in Resources */,
 				8CCAF4111A595D28006A8CB7 /* RootViewController.xib in Resources */,
 				8CCBF93D1A48394500267494 /* Images.xcassets in Resources */,
 			);
@@ -312,14 +426,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9DCB511A88D6640020147A /* ChatRecordViewController.m in Sources */,
 				8CCAF4321A5A39B0006A8CB7 /* ContactViewController.m in Sources */,
+				8C9DCB651A88DD360020147A /* FeedbackViewController.m in Sources */,
 				8CCAF4391A5A4BC2006A8CB7 /* UIView+X.m in Sources */,
+				8C9DCB741A88E6DB0020147A /* SquareViewController.m in Sources */,
 				8CCBF9351A48394500267494 /* AppDelegate.m in Sources */,
+				8CCAF44A1A5AB738006A8CB7 /* UIBarButtonItem+X.m in Sources */,
 				8CCAF4101A595D28006A8CB7 /* RootViewController.m in Sources */,
+				8C9DCB631A88DD360020147A /* FeedbackTableViewCell.m in Sources */,
+				8C9DCB561A88D6DF0020147A /* ChatRecordTableViewCell.m in Sources */,
+				8C9DCB791A88E77D0020147A /* SquareTableViewCell.m in Sources */,
+				8C9DCB621A88DD360020147A /* FeedbackItem.m in Sources */,
 				8CCAF42D1A5A37E9006A8CB7 /* ContactTableViewCell.m in Sources */,
 				8CCBF9321A48394500267494 /* main.m in Sources */,
 				8CCAF41F1A5967EF006A8CB7 /* SwitchTabBarController.m in Sources */,
 				8CCAF41E1A5967EF006A8CB7 /* SwitchTabBar.m in Sources */,
+				8CCAF4461A5AB498006A8CB7 /* UserInfoViewController.m in Sources */,
+				8C9DCB6B1A88E30A0020147A /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,11 +546,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Alumni/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,11 +559,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Alumni/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

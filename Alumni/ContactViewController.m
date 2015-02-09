@@ -8,6 +8,7 @@
 
 #import "ContactViewController.h"
 #import "ContactTableViewCell.h"
+#import "UserInfoViewController.h"
 
 @interface ContactViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -22,6 +23,29 @@ static NSString *contactTableViewCellIdentifier = @"contactTableViewCellIdentifi
     [super viewDidLoad];
     self.contactTableView.delegate = self;
     self.contactTableView.dataSource = self;
+    
+    CGRect frame = self.contactTableView.frame;
+    NSLog(@"viewDidLoad x = %f, y = %f, width = %f, height = %f", frame.origin.x,
+          frame.origin.y, frame.size.width, frame.size.height);
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    CGRect superFrame = self.view.superview.frame;
+    NSLog(@"super frame x = %f, y = %f, width = %f, height = %f", superFrame.origin.x, superFrame.origin.y, superFrame.size.width, superFrame.size.height);
+    
+    CGRect frame = self.view.frame;
+    NSLog(@"ContactViewController viewDidAppear x = %f, y = %f, width = %f, height = %f", frame.origin.x,
+          frame.origin.y, frame.size.width, frame.size.height);
+    self.contactTableView.frame = CGRectMake(self.contactTableView.frame.origin.x, self.contactTableView.frame.origin.y, frame.size.width, frame.size.height - 44);
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    CGRect frame = self.view.frame;
+    NSLog(@"ContactViewController viewDidAppear x = %f, y = %f, width = %f, height = %f", frame.origin.x,
+          frame.origin.y, frame.size.width, frame.size.height);
+    self.contactTableView.frame = CGRectMake(self.contactTableView.frame.origin.x, self.contactTableView.frame.origin.y, frame.size.width, 10);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -48,6 +72,12 @@ static NSString *contactTableViewCellIdentifier = @"contactTableViewCellIdentifi
     }
     
     return contactCell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UserInfoViewController *userInfoVC = [[UserInfoViewController alloc] init];
+    [self.navigationController pushViewController:userInfoVC animated:YES];
 }
 
 @end

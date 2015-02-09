@@ -106,6 +106,7 @@ static SwitchTabBarController *switchTabBarController;
 #pragma mark - Private methods
 - (void)displayViewAtIndex:(NSUInteger)index
 {
+    NSLog(@"哈哈哈");
     UIViewController *targetViewController = [self.viewControllers objectAtIndex:index];
     
     // If target index is equal to current index.
