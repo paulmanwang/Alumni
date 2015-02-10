@@ -16,6 +16,7 @@
 @interface RootViewController ()
 {
     SwitchTabBarController *_switchTabBarController;
+    UITabBarController *_tabBarController;
 }
 
 @end
@@ -50,50 +51,47 @@
 {
     //通讯录
     ContactViewController *contactViewController = [[ContactViewController alloc] init];
-    contactViewController.view.backgroundColor = [UIColor redColor];
     contactViewController.title = @"通讯录";
     UINavigationController *contactNav = [[UINavigationController alloc] initWithRootViewController:contactViewController];
-    //contactNav.navigationBarHidden = YES;
+    contactNav.tabBarItem.title = @"同学录";
+    contactNav.tabBarItem.image = [UIImage imageNamed:@"tab_bar_contact"];
     
     //广场
     UIViewController *squareViewController = [[SquareViewController alloc] init];
     squareViewController.view.backgroundColor = [UIColor greenColor];
     squareViewController.title = @"广场";
     UINavigationController *squareNav = [[UINavigationController alloc] initWithRootViewController:squareViewController];
-    //squareNav.navigationBarHidden = YES;
+    squareNav.tabBarItem.title = @"广场";
+    squareNav.tabBarItem.image = [UIImage imageNamed:@"tab_bar_square"];
     
     //聊天
     UIViewController *chatRecordViewController = [[ChatRecordViewController alloc] init];
     chatRecordViewController.view.backgroundColor = [UIColor yellowColor];
     chatRecordViewController.title = @"聊天";
     UINavigationController *chatNav = [[UINavigationController alloc] initWithRootViewController:chatRecordViewController];
-    //talkNav.navigationBarHidden = YES;
+    chatNav.tabBarItem.title = @"聊天";
+    chatNav.tabBarItem.image = [UIImage imageNamed:@"tab_bar_talk"];
     
     //设置
     UIViewController *settingViewController = [[SettingViewController alloc] init];
-    //settingViewController.view.backgroundColor = [UIColor blueColor];
     settingViewController.title = @"个人信息";
     UINavigationController *settingNav = [[UINavigationController alloc] initWithRootViewController:settingViewController];
-    //settingNav.navigationBarHidden = YES;
+    settingNav.tabBarItem.title = @"设置";
+    settingNav.tabBarItem.image = [UIImage imageNamed:@"tab_bar_setting"];
     
-    NSArray *ctrlArr = [NSArray arrayWithObjects:contactNav, chatNav, squareNav,settingNav,nil];
-
-    NSArray *imgArr = [NSArray arrayWithObjects:[UIImage imageNamed:@"tab_bar_contact"],[UIImage imageNamed:@"tab_bar_talk"],[UIImage imageNamed:@"tab_bar_square"],[UIImage imageNamed:@"tab_bar_setting"], nil];
+    //a.初始化一个tabBar控制器
+    _tabBarController=[[UITabBarController alloc]init];
+    _tabBarController.viewControllers=@[contactNav, squareNav, chatNav,settingNav];
+    [self.view addSubview:_tabBarController.view];
     
-    _switchTabBarController = [[SwitchTabBarController alloc] initWithViewControllers:ctrlArr imageArray:imgArr];
-    [_switchTabBarController.tabBar setBackgroundImage:[UIImage imageNamed:@"mainpage_bottombg"]];
-    [_switchTabBarController setTabBarTransparent:YES];
-    [self.view addSubview:_switchTabBarController.view];
+//    NSArray *ctrlArr = [NSArray arrayWithObjects:contactNav, chatNav, squareNav,settingNav,nil];
+//
+//    NSArray *imgArr = [NSArray arrayWithObjects:[UIImage imageNamed:@"tab_bar_contact"],[UIImage imageNamed:@"tab_bar_talk"],[UIImage imageNamed:@"tab_bar_square"],[UIImage imageNamed:@"tab_bar_setting"], nil];
+//    
+//    _switchTabBarController = [[SwitchTabBarController alloc] initWithViewControllers:ctrlArr imageArray:imgArr];
+//    [_switchTabBarController.tabBar setBackgroundImage:[UIImage imageNamed:@"mainpage_bottombg"]];
+//    [_switchTabBarController setTabBarTransparent:YES];
+//    [self.view addSubview:_switchTabBarController.view];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
