@@ -41,6 +41,9 @@
                     </label>
                 </subviews>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="contentTextView" destination="oU9-Rb-PtY" id="7cE-ZE-qxX"/>
+            </connections>
             <point key="canvasLocation" x="380" y="337"/>
         </tableViewCell>
     </objects>

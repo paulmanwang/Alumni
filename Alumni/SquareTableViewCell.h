@@ -12,4 +12,6 @@
 
 +(SquareTableViewCell*)squareTableViewCell;
 
+- (void)setContent:(NSString *)content;
+
 @end

@@ -51,9 +51,9 @@
 {
     //通讯录
     ContactViewController *contactViewController = [[ContactViewController alloc] init];
-    contactViewController.title = @"通讯录";
+    contactViewController.title = @"校友录";
     UINavigationController *contactNav = [[UINavigationController alloc] initWithRootViewController:contactViewController];
-    contactNav.tabBarItem.title = @"同学录";
+    contactNav.tabBarItem.title = @"校友录";
     contactNav.tabBarItem.image = [UIImage imageNamed:@"tab_bar_contact"];
     
     //广场

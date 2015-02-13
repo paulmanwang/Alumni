@@ -22,6 +22,11 @@
 		8C9DCB751A88E6DB0020147A /* SquareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DCB731A88E6DB0020147A /* SquareViewController.xib */; };
 		8C9DCB791A88E77D0020147A /* SquareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB771A88E77D0020147A /* SquareTableViewCell.m */; };
 		8C9DCB7A1A88E77D0020147A /* SquareTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C9DCB781A88E77D0020147A /* SquareTableViewCell.xib */; };
+		8C9DCB801A8DA2E50020147A /* EGORefreshTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB7D1A8DA2E50020147A /* EGORefreshTableFooterView.m */; };
+		8C9DCB811A8DA2E50020147A /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB7F1A8DA2E50020147A /* EGORefreshTableHeaderView.m */; };
+		8C9DCB841A8DA6110020147A /* SpinningImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB831A8DA6110020147A /* SpinningImageView.m */; };
+		8C9DCB871A8DA66D0020147A /* UIColor+X.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB861A8DA66D0020147A /* UIColor+X.m */; };
+		8C9DCB8A1A8DA6D80020147A /* NSNumber+X.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C9DCB891A8DA6D80020147A /* NSNumber+X.m */; };
 		8CCAF4101A595D28006A8CB7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF40E1A595D28006A8CB7 /* RootViewController.m */; };
 		8CCAF4111A595D28006A8CB7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CCAF40F1A595D28006A8CB7 /* RootViewController.xib */; };
 		8CCAF41E1A5967EF006A8CB7 /* SwitchTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAF41B1A5967EF006A8CB7 /* SwitchTabBar.m */; };
@@ -74,6 +79,16 @@
 		8C9DCB761A88E77D0020147A /* SquareTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquareTableViewCell.h; sourceTree = "<group>"; };
 		8C9DCB771A88E77D0020147A /* SquareTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquareTableViewCell.m; sourceTree = "<group>"; };
 		8C9DCB781A88E77D0020147A /* SquareTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SquareTableViewCell.xib; sourceTree = "<group>"; };
+		8C9DCB7C1A8DA2E50020147A /* EGORefreshTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableFooterView.h; sourceTree = "<group>"; };
+		8C9DCB7D1A8DA2E50020147A /* EGORefreshTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableFooterView.m; sourceTree = "<group>"; };
+		8C9DCB7E1A8DA2E50020147A /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		8C9DCB7F1A8DA2E50020147A /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		8C9DCB821A8DA6110020147A /* SpinningImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinningImageView.h; sourceTree = "<group>"; };
+		8C9DCB831A8DA6110020147A /* SpinningImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinningImageView.m; sourceTree = "<group>"; };
+		8C9DCB851A8DA66D0020147A /* UIColor+X.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+X.h"; sourceTree = "<group>"; };
+		8C9DCB861A8DA66D0020147A /* UIColor+X.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+X.m"; sourceTree = "<group>"; };
+		8C9DCB881A8DA6D80020147A /* NSNumber+X.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+X.h"; sourceTree = "<group>"; };
+		8C9DCB891A8DA6D80020147A /* NSNumber+X.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+X.m"; sourceTree = "<group>"; };
 		8CCAF40D1A595D28006A8CB7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		8CCAF40E1A595D28006A8CB7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8CCAF40F1A595D28006A8CB7 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
@@ -174,6 +189,19 @@
 			name = Squre;
 			sourceTree = "<group>";
 		};
+		8C9DCB7B1A8D9D630020147A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8C9DCB821A8DA6110020147A /* SpinningImageView.h */,
+				8C9DCB831A8DA6110020147A /* SpinningImageView.m */,
+				8C9DCB7C1A8DA2E50020147A /* EGORefreshTableFooterView.h */,
+				8C9DCB7D1A8DA2E50020147A /* EGORefreshTableFooterView.m */,
+				8C9DCB7E1A8DA2E50020147A /* EGORefreshTableHeaderView.h */,
+				8C9DCB7F1A8DA2E50020147A /* EGORefreshTableHeaderView.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 		8CCAF4121A595D6D006A8CB7 /* AppGobal */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +257,7 @@
 		8CCAF4231A5A33E6006A8CB7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				8C9DCB7B1A8D9D630020147A /* Common */,
 				8C9DCB6D1A88E6990020147A /* Squre */,
 				8C9DCB671A88E2DC0020147A /* Setting */,
 				8CCAF4421A5AB46F006A8CB7 /* UserInfo */,
@@ -242,6 +271,10 @@
 		8CCAF4361A5A4BB3006A8CB7 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8C9DCB881A8DA6D80020147A /* NSNumber+X.h */,
+				8C9DCB891A8DA6D80020147A /* NSNumber+X.m */,
+				8C9DCB851A8DA66D0020147A /* UIColor+X.h */,
+				8C9DCB861A8DA66D0020147A /* UIColor+X.m */,
 				8CCAF4481A5AB738006A8CB7 /* UIBarButtonItem+X.h */,
 				8CCAF4491A5AB738006A8CB7 /* UIBarButtonItem+X.m */,
 				8CCAF4371A5A4BC2006A8CB7 /* UIView+X.h */,
@@ -430,18 +463,23 @@
 				8CCAF4321A5A39B0006A8CB7 /* ContactViewController.m in Sources */,
 				8C9DCB651A88DD360020147A /* FeedbackViewController.m in Sources */,
 				8CCAF4391A5A4BC2006A8CB7 /* UIView+X.m in Sources */,
+				8C9DCB871A8DA66D0020147A /* UIColor+X.m in Sources */,
 				8C9DCB741A88E6DB0020147A /* SquareViewController.m in Sources */,
 				8CCBF9351A48394500267494 /* AppDelegate.m in Sources */,
+				8C9DCB8A1A8DA6D80020147A /* NSNumber+X.m in Sources */,
 				8CCAF44A1A5AB738006A8CB7 /* UIBarButtonItem+X.m in Sources */,
 				8CCAF4101A595D28006A8CB7 /* RootViewController.m in Sources */,
 				8C9DCB631A88DD360020147A /* FeedbackTableViewCell.m in Sources */,
 				8C9DCB561A88D6DF0020147A /* ChatRecordTableViewCell.m in Sources */,
 				8C9DCB791A88E77D0020147A /* SquareTableViewCell.m in Sources */,
+				8C9DCB801A8DA2E50020147A /* EGORefreshTableFooterView.m in Sources */,
+				8C9DCB811A8DA2E50020147A /* EGORefreshTableHeaderView.m in Sources */,
 				8C9DCB621A88DD360020147A /* FeedbackItem.m in Sources */,
 				8CCAF42D1A5A37E9006A8CB7 /* ContactTableViewCell.m in Sources */,
 				8CCBF9321A48394500267494 /* main.m in Sources */,
 				8CCAF41F1A5967EF006A8CB7 /* SwitchTabBarController.m in Sources */,
 				8CCAF41E1A5967EF006A8CB7 /* SwitchTabBar.m in Sources */,
+				8C9DCB841A8DA6110020147A /* SpinningImageView.m in Sources */,
 				8CCAF4461A5AB498006A8CB7 /* UserInfoViewController.m in Sources */,
 				8C9DCB6B1A88E30A0020147A /* SettingViewController.m in Sources */,
 			);

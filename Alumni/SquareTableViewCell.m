@@ -9,6 +9,12 @@
 #import "SquareTableViewCell.h"
 #import "UIView+X.h"
 
+@interface  SquareTableViewCell()
+
+@property (weak, nonatomic) IBOutlet UITextView *contentTextView;
+
+@end
+
 @implementation SquareTableViewCell
 
 - (void)awakeFromNib {
@@ -23,5 +29,10 @@
 
 +(SquareTableViewCell*)squareTableViewCell{
     return [UIView viewWithNib:@"SquareTableViewCell" owner:nil];
+}
+
+- (void)setContent:(NSString *)content
+{
+    self.contentTextView.text = content;
 }
 @end
