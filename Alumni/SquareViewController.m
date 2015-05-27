@@ -84,7 +84,7 @@ static NSString *squareTableViewCellIdentifier = @"SquareTableViewCellIdentifier
     }
     
     NSString *content = _infomations[indexPath.row];
-    [squareCell setContent:content];
+    //[squareCell setContent:content];
     
     return squareCell;
 }
@@ -92,7 +92,7 @@ static NSString *squareTableViewCellIdentifier = @"SquareTableViewCellIdentifier
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     if (!_refreshFooterView){
-        [self setFooterView];
+        //[self setFooterView];
     }
     
     if (_infoCount == 50) {

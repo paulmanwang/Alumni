@@ -66,6 +66,13 @@ static NSString *TipsString = @"请输入聊天内容";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //适配iOS7以上版本
+    if([[[UIDevice currentDevice] systemVersion] floatValue]>=7.0)
+    {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+        self.automaticallyAdjustsScrollViewInsets = NO;
+    }
+    
     self.navigationItem.title = @"西门吹雪";
     self.sendButton.enabled = NO;
     
@@ -88,6 +95,8 @@ static NSString *TipsString = @"请输入聊天内容";
                                              selector:@selector(keyboardDidHidden:)
                                                  name:UIKeyboardDidHideNotification
                                                object:nil];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

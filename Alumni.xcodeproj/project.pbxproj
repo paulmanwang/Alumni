@@ -176,7 +176,7 @@
 			name = Setting;
 			sourceTree = "<group>";
 		};
-		8C9DCB6D1A88E6990020147A /* Squre */ = {
+		8C9DCB6D1A88E6990020147A /* Square */ = {
 			isa = PBXGroup;
 			children = (
 				8C9DCB711A88E6DB0020147A /* SquareViewController.h */,
@@ -186,7 +186,7 @@
 				8C9DCB771A88E77D0020147A /* SquareTableViewCell.m */,
 				8C9DCB781A88E77D0020147A /* SquareTableViewCell.xib */,
 			);
-			name = Squre;
+			name = Square;
 			sourceTree = "<group>";
 		};
 		8C9DCB7B1A8D9D630020147A /* Common */ = {
@@ -247,23 +247,15 @@
 			name = Chat;
 			sourceTree = "<group>";
 		};
-		8CCAF4221A5A33CB006A8CB7 /* Square */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Square;
-			sourceTree = "<group>";
-		};
 		8CCAF4231A5A33E6006A8CB7 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				8C9DCB7B1A8D9D630020147A /* Common */,
-				8C9DCB6D1A88E6990020147A /* Squre */,
+				8C9DCB6D1A88E6990020147A /* Square */,
 				8C9DCB671A88E2DC0020147A /* Setting */,
 				8CCAF4421A5AB46F006A8CB7 /* UserInfo */,
 				8CCAF4201A5A33A3006A8CB7 /* Contact */,
 				8CCAF4211A5A33B7006A8CB7 /* Chat */,
-				8CCAF4221A5A33CB006A8CB7 /* Square */,
 			);
 			name = UI;
 			sourceTree = "<group>";

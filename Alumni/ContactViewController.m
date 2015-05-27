@@ -21,8 +21,6 @@ static NSString *contactTableViewCellIdentifier = @"contactTableViewCellIdentifi
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.contactTableView.delegate = self;
-    self.contactTableView.dataSource = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,7 +36,7 @@ static NSString *contactTableViewCellIdentifier = @"contactTableViewCellIdentifi
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 50;
+    return 40;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
