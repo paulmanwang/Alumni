@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>19C47BF9-CA84-4FF9-BE4D-70A0A9296AB7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Alumni</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D93B01605BCBF878586BDEA9CBBF76DFE7739BA8</key>
+		<string>github.com:wanglichun/Alumni.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Alumni.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D93B01605BCBF878586BDEA9CBBF76DFE7739BA8</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:wanglichun/Alumni.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D93B01605BCBF878586BDEA9CBBF76DFE7739BA8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D93B01605BCBF878586BDEA9CBBF76DFE7739BA8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Alumni</string>
+		</dict>
+	</array>
+</dict>
+</plist>
